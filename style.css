@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.msg0{
+    height: 70px;
+    width: 100%;
+    background-color: rgb(74, 152, 155);
+}
+
+.para{
+    color: aliceblue;
+    font-size: 30px;
+    text-align: center;
+    padding: 1rem;
+}
+
+.container{
+    height: 100px;
+    width: 250px;
+    margin-top: 3rem;
+    margin-left: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#rock{
+    height: 50px;
+    width: 70px;
+    background-color: sienna;
+    color: black;
+    border-radius: 5px;
+    border: none;
+
+
+}
+.choice1:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+#paper{
+    height: 50px;
+    width: 70px;
+    background-color: sienna;
+    color: black;
+    border-radius: 5px;
+    border: none;
+    
+
+}
+
+#scissor{
+    height: 50px;
+    width: 70px;
+    background-color: sienna;
+    color: black;
+    border-radius: 5px;
+    border: none;
+    
+
+}
+
+.score{
+    height: 70px;
+    display: inline-block;
+    margin-top: 30px;
+
+}
+#score1{
+    margin-left: 365px;
+}
+#score2{
+    margin-left: 30px;
+}
+
+#yourscore1, #compscore1{
+    width: 60px;
+    height: 60px;
+    padding: 1rem;
+    background-color: rgb(22, 108, 206);
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#yourscore, #compscore{
+    font-size: 55px;
+    display: flex;
+    justify-content: center;
+}
+
+.msg{
+    height: 30px;
+    width: auto;
+    background-color: black;
+    color: wheat;
+    font-size: 15px;
+    padding: 1rem;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 65px;
+    margin-left: 35%;
+    border-radius: 7px;
+}
+.resetbtn{
+    height: 20px;
+    width: auto;
+    background-color: rgb(239, 7, 7);
+    color: black;
+    font-size: 12px;
+    padding: 1rem;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    margin-left: 46%;
+    border-radius: 7px;
+
+}
+
+.resetbtn1{
+    background-color: rgb(239, 7, 7); 
+    border: none;
+    font-size: 15px;
+    
+}
